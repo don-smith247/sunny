@@ -1,0 +1,385 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.first-sec{
+    background-image: url(./images/desktop/image-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+.nav-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+}
+ul{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    color: white;
+    align-items: center;
+}
+button{
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 20px;
+}
+.txt{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    align-items: center;
+    padding-top: 120px;
+}
+.txt-1 h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 40px;
+}
+.Transform{
+    display: flex;
+}
+.trans{
+    width: 690px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 170px;
+}
+.trans h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+.trans h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: solid 2px rgb(255, 255, 170);
+    width: 150px;
+}
+.trans-img img{
+    width: 660px;
+    height: 600px;
+}
+.Stand{
+    display: flex;
+    margin-top: -3px;
+}
+.stan-1{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 170px;
+}
+.stan-1 h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+.stan-1 h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: solid 2px rgb(255, 255, 170);
+    width: 150px;
+}
+.stan img{
+    width: 690px;
+    margin-top: -3px;
+}
+.stan-1{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 170px;
+}
+.stan-1 h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+.stan-1 h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: solid 2px rgb(255, 255, 170);
+    width: 150px;
+}
+.stan img{
+    width: 690px;
+    height: 600px;
+}
+.Graphic{
+    background-image: url(images/desktop/image-graphic-design.jpg);
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 710px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 450px;
+    gap: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Graphic h3{
+    font-size: 25px;
+}
+.Photography{
+    background-image: url(images/desktop/image-photography.jpg);
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 680px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 450px;
+    gap: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Photography h3{
+    font-size: 25px;
+}
+.gp{
+    display: flex;
+    margin-top: -25px;
+    
+}
+.ct{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+    height: 120vh;
+    gap: 70px;
+}
+.etj{
+    display: flex;
+    gap: 50px;
+}
+.don{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    text-align: center;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    height: 50vh;
+    width: 22vw;
+    padding-top: 20px;
+    border-radius: 20px;
+    border: solid 2px black;
+}
+.img img{
+    border-radius: 100px;
+    height: 50px;
+}
+.em{
+   display: flex;
+   flex-direction: column;
+   gap: 10px; 
+}
+.em h3{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.em p{
+    color: rgb(182, 179, 179);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.cct{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(182, 179, 179);
+}
+.dd{
+    display: flex;
+}
+.d{
+    display: flex;
+}
+.g{
+    display: flex;
+}
+.d img{
+    width: 337px;
+}
+.g img{
+    width: 337px;
+}
+footer{
+    height: 30vh;
+    width: 100%;
+    background-color: hsl(168, 34%, 41%);
+    color: white;
+    padding-top: 40px;
+    margin-top: -5px;
+}
+.l{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    text-align: center;
+
+}
+.ll{
+    display: flex;
+    gap: 15px;
+}
+.ik{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.kk{
+    display: flex;
+    gap: 30px;
+}
+.trans h2{
+    width: 40vw;
+}
+.trans p{
+    width: 40vw;
+}
+.line{
+    width: 25px;
+    height: 4px;
+    margin: 2px;
+    background-color: white;
+    display: none;
+    border-radius: 2px;
+}
+.will{
+    display: none
+}
+@media screen and (max-width:950px){
+    .will{
+        height: 50vh;
+        width: 300px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(7, 147, 228);
+        font-size: 25px;
+        gap: 40px;
+        padding-top: 60px;
+        text-align: center;
+        margin-left: 40px;
+        position: absolute;
+        display: none;
+        transition: 0.1s;
+    }
+    .toggle{
+        display: flex;
+    }
+    .txt-1 h1{
+        width: 80vw;
+        font-size: 27px;
+    }
+    .line{
+        display: block;
+    }
+    .nav-div{
+        align-items: center;
+    }
+    ul{
+        display: none;
+    }
+    .Transform{
+        flex-direction: column;
+        width: 100vw;
+    }
+    .stan-1{
+        width: 100vw;
+        padding-left: 30px;
+    }
+    .stan-1 h2{
+        width: 80vw;
+    }
+    .stan-1 p{
+        width: 80vw;
+    }
+    .trans-img img{
+        background-image: none;
+    }
+    .tr img{
+        background-image: url(./images/mobile/image-transform.jpg);
+        width: 100vw;
+    }
+    .Graphic{
+        background-image: none;
+    }
+    .gra{
+        background-image: url(./images/mobile/image-graphic-design.jpg);
+        width: 100vw;
+    }
+    .Photography{
+        /* width: 100vw; */
+        background-image: none;
+    }
+    .pho{
+        background-image: url(./images/mobile/image-photography.jpg);
+        width: 100vw;
+    }
+    .gp
+    .stan img{
+        background-image: none;
+    }
+    .st img{
+        background-image: url(./images/mobile/image-stand-out.jpg);
+        width: 100vw;
+    }
+    .trans{
+        width: 100vw;
+        padding-left: 30px;
+    }
+    .trans h2{
+        width: 80vw;
+    }
+    .trans p{
+        width: 80vw;
+    }
+    .gp{
+        flex-direction: column;
+    }
+    .etj{
+        flex-direction: column;
+    }
+    .ct{
+        height: 210vh;
+        width: 100vw;
+        align-items: center;
+    }
+    .dd{
+        flex-direction: column;
+    }
+    .first-sec{
+        align-items: center;
+        background-image: none;
+    }
+    .sec{
+        background-image: url(./images/mobile/image-header.jpg);
+        width: 100vw;
+    }
+    .Stand{
+        flex-direction: column;
+    }
+    .don{
+        width: 85vw;
+        align-items: center;
+    }
+    footer{
+        width: 100vw;
+    }
+    .ddd img{
+        width: 50vw;
+    } 
+    .ggg img{
+        width: 50vw;
+    }   
+
+}

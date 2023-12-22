@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section  class="first-sec sec">
+        <nav>
+            <div class="nav-div">
+                <div>
+                    <img src="./images/logo.svg" alt="">
+                </div>
+                <div>
+                    <ul>
+                        <li>About</li>
+                        <li>Services</li>
+                        <li>Projects</li>
+                        <li><button>CONTACT</button></li>
+                    </ul>
+                </div>
+                <div class="menu" onclick="dropdown()">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </div>
+        </nav>
+        <ul class="will">
+            <li>About</li>
+            <li>Services</li>
+            <li>Projects</li>
+            <li><button>CONTACT</button></li>
+        </ul>
+        <div class="txt">
+            <div class="txt-1">
+                <h1><b>WE ARE CREATIVES</b></h1>
+            </div>
+            <div>
+                <img src="./images/icon-arrow-down.svg" alt="">
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="Transform">
+            <div class="trans">
+                <h2>Transform your  brand</h2>
+                <p>We are a full-service creative agency specializing in helping brands grow fast. 
+                    Engage your clients through   compelling visuals that do most of the marketing for you.
+                </p>
+                <h3>
+                    LEARN MORE
+                </h3>
+            </div>
+            <div class="trans-img tr">
+                <img src="./images/desktop/image-transform.jpg" alt="">
+            </div>
+        </div>
+        <div class="Stand">
+            <div class="stan st">
+                <img src="images/desktop/image-stand-out.jpg" alt="">
+            </div>
+            <div class="stan-1">
+                <h2>Stand out to the right  audience</h2>
+                <p>
+                    Using a collaborative formula of designers, researchers,  photographers, videographers, and copywriters, we’ll  build and extend your brand in digital places.
+                </p>
+                <h3>
+                    Learn more
+                </h3>
+            </div>
+        </div>
+        <div class="gp">
+            <div class="Graphic gra">
+                   <h3>Graphic design</h3>
+                   <p>Great design makes you memorable. We deliver<br>artwork that underscores your brand message  <br>and captures potential clients’ attention.</p>
+            </div>
+            <div class="Photography pho">
+                   <h3>Photography</h3>
+                   <p>Increase your credibility by getting the most <br> stunning, high-quality photos that improve your <br> business image.</p>
+            </div>
+        </div>
+        <div class="ct">
+            <div class="cct"><h2>Client testimonials</h2></div>
+        <div class="etj">
+              <div class="don"> 
+                <div class="img">
+                    <img src="/images/image-emily.jpg" alt="">
+                </div>
+                <div>
+                    <p>We put our trust in Sunnyside and they <br> delivered, making sure our needs were met  <br> and deadlines were always hit.
+                    </p>
+                </div>
+                <div class="em">
+                    <h3>Emily R.</h3>
+                    <p>Marketing Director</p>
+                </div>
+              </div>
+               <div class="don">
+                <div class="img">
+                    <img src="/images/image-thomas.jpg" alt="">
+                </div>
+                <div>
+                    <p>
+                        Sunnyside’s enthusiasm coupled with their <br> keen interest in our brand’s success made it <br> a satisfying and enjoyable experience.   
+                    </p>
+                </div>
+                <div class="em">
+                    <h3>Thomas S.</h3>
+                    <p>Chief Operating Office</p>
+                </div>
+               </div>
+               <div class="don">
+                <div class="img">
+                    <img src="/images/image-jennie.jpg" alt="">
+                </div>
+                <div>
+                    <p>
+                        Incredible end result! Our sales increased <br> over 400% when we worked with Sunnyside.  <br>Highly recommended!      
+                    </p>
+                </div>
+                <div class="em">
+                    <h3>Jennie F.</h3>
+                    <p>Business Owner</p>
+                </div>
+               </div>
+        </div>
+        </div>
+        <div class="dd">
+            <div class="d">
+                <div class="ddd"><img src="images/desktop/image-gallery-milkbottles.jpg" alt=""></div>
+                <div class="ddd"><img src="/images/desktop/image-gallery-orange.jpg" alt=""></div>
+            </div>
+            <div class="g">
+                <div class="ggg"><img src="/images/desktop/image-gallery-cone.jpg" alt=""></div>
+                <div class="ggg"><img src="/images/desktop/image-gallery-sugarcubes.jpg" alt=""></div>
+            </div>
+        </div>
+    </section>
+    <footer>
+         <div class="l">
+            <div class="ik">
+               <div><img src="./images/logo.svg" alt=""></div>
+               <div>
+                <ul class="kk">
+                    <ol>About</ol>
+                    <ol>Services</ol>
+                    <ol>Projects</ol>
+                    <ol>Contact</ol>
+                </ul>
+               </div>
+            </div>
+            <div class="ll">
+                <div><img src="./images/icon-facebook.svg" alt=""></div>
+                <div><img src="./images/icon-instagram.svg" alt=""></div>
+                <div><img src="./images/icon-twitter.svg" alt=""></div>
+                <div><img src="images/icon-pinterest.svg" alt=""></div>
+            </div>
+         </div>
+    </footer>
+</body>
+</html>
+<script>
+    function dropdown(){
+        var menu = document.querySelector(".will")
+        menu.classList.toggle("toggle")
+    }
+</script>
