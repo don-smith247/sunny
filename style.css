@@ -9,6 +9,7 @@
     background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
+    overflow-x: hidden;
 }
 .nav-div{
     display: flex;
@@ -52,7 +53,7 @@ button{
     display: flex;
     flex-direction: column;
     gap: 40px;
-    padding: 170px;
+    /* padding: 170px; */
 }
 .trans h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -226,6 +227,11 @@ footer{
     text-align: center;
 
 }
+.yuu{
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
 .ll{
     display: flex;
     gap: 15px;
@@ -309,6 +315,7 @@ footer{
     .tr img{
         background-image: url(./images/mobile/image-transform.jpg);
         width: 100vw;
+        background-size: contain;
     }
     .Graphic{
         background-image: none;
@@ -316,6 +323,7 @@ footer{
     .gra{
         background-image: url(./images/mobile/image-graphic-design.jpg);
         width: 100vw;
+        background-size: contain;
     }
     .Photography{
         /* width: 100vw; */
@@ -324,6 +332,7 @@ footer{
     .pho{
         background-image: url(./images/mobile/image-photography.jpg);
         width: 100vw;
+        background-size: contain;
     }
     .gp
     .stan img{
@@ -364,6 +373,7 @@ footer{
     .sec{
         background-image: url(./images/mobile/image-header.jpg);
         width: 100vw;
+        background-size: contain;
     }
     .Stand{
         flex-direction: column;
